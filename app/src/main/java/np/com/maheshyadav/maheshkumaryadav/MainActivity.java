@@ -55,8 +55,8 @@ public class MainActivity extends Activity {
         Intent intent=getIntent();
         String id = intent.getStringExtra("id");
 
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
 
         webView = (WebView) findViewById(R.id.mainWebView);
 

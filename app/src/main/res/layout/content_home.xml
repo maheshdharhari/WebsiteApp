@@ -8,16 +8,15 @@
     android:layout_height="fill_parent"
 
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="demo.demo.Home"
+    tools:context="np.com.maheshyadav.maheshkumaryadav.Home"
     tools:showIn="@layout/activity_home">
-
 
 
     <ImageView
         android:id="@+id/videoview"
-        android:src="@drawable/logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:src="@drawable/splash" />
 </RelativeLayout>
